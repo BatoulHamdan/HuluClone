@@ -1,0 +1,45 @@
+.fourth {
+    width: 100%;
+    height: 100%;
+    background-image: url(../Assits/sports-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fourth .navbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 12px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 70%;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logos {
+    display: flex;
+    gap: 30px;
+}
+
+.logos .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.logos img {
+    width: 50px;
+}

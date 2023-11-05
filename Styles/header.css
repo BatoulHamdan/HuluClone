@@ -1,0 +1,109 @@
+header {
+    background-image: url(../Assits/main.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+}
+
+.navbar {
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .login {
+    display: flex;
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > img {
+    height: 50%;
+    width: 50%;
+}
+
+.login > button {
+    height: 50%;
+    width: 55%;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.login > button:hover {
+    background-color: #272c34;
+    border-radius: 5px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    width: 50%;
+    gap: 30px;
+}
+
+.bundles {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+
+.itemBundle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #00ED82;
+}
+
+.itemBundle .description {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    height: 50px;
+}
+
+.itemBundle .button {
+    height: 40px;
+    width: 100%;    
+}
+
+.itemBundle button{
+    width: 100%;
+    height: 100%;
+    background-color: #00ED82;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.link a {
+    color: white;
+    font-size: 15px;
+}
